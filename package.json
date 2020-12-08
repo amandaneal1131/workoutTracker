@@ -5,22 +5,22 @@
   "main": "server.js",
 
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "cd seeders && node seeds.js",
     "heroku-postbuild": "npm run build",
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jarrodfinn/Homework-17.git"
+    "url": "git+https://github.com/amandaneal1131/workoutTracker.git"
   },
   "author": "Jarrod Finn",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jarrodfinn/Homework-17/issues"
+    "url": "https://github.com/amandaneal1131/workoutTracker.git"
   },
-  "homepage": "https://github.com/jarrodfinn/Homework-17#readme",
+  "homepage": "https://github.com/amandaneal1131/workoutTracker.git",
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.9.6",

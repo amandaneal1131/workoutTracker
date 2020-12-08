@@ -62,7 +62,7 @@ let workoutSeed = [
     exercises: [
       {
         type: "resistance",
-        name: "Bench Press",
+        name: "Free Weights",
         duration: 20,
         weight: 285,
         reps: 10,
@@ -88,7 +88,7 @@ let workoutSeed = [
     exercises: [
       {
         type: "resistance",
-        name: "Quad Press",
+        name: "Sqauts",
         duration: 30,
         weight: 300,
         reps: 10,
@@ -100,8 +100,8 @@ let workoutSeed = [
     day: new Date().setDate(new Date().getDate()-3),
     exercises: [
       {
-        type: "resistance",
-        name: "Bench Press",
+        type: "cardio",
+        name: "Jumping Jacks",
         duration: 20,
         weight: 300,
         reps: 10,
@@ -114,7 +114,7 @@ let workoutSeed = [
     exercises: [
       {
         type: "resistance",
-        name: "Military Press",
+        name: "Push Ups",
         duration: 20,
         weight: 300,
         reps: 10,
@@ -127,7 +127,7 @@ let workoutSeed = [
     exercises: [
       {
         type: "resistance",
-        name: "Bench",
+        name: "Bench Press",
         duration: 30,
         distance: 2
       }
