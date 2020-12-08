@@ -1,7 +1,7 @@
 {
   "name": "homework-17",
   "version": "1.0.0",
-  "description": "Workout-Tracker",
+  "description": "workoutTracker",
   "main": "server.js",
   
   "scripts": {
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jarrodfinn/Homework-17.git"
+    "url": "git+https://github.com/amandaneal1131/workoutTracker/tree/master"
   },
   "author": "Jarrod Finn",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jarrodfinn/Homework-17/issues"
+    "url": "https://github.com/amandaneal1131/workoutTracker/tree/master"
   },
-  "homepage": "https://github.com/jarrodfinn/Homework-17#readme",
+  "homepage": "https://github.com/amandaneal1131/workoutTracker/tree/master",
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.9.6",
