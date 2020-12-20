@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "workoutTracker",
   "main": "server.js",
-
   "scripts": {
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "seed": "cd seeders && node seeds.js",
-    "heroku-postbuild": "npm run build",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
